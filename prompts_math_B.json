@@ -1,0 +1,132 @@
+[
+ {
+  "task": "m01",
+  "family": "math",
+  "expected": "30",
+  "check": {
+   "type": "number"
+  },
+  "variants": {
+   "plain": "A bakery makes 240 cookies. It sells 3/4 of them in the morning. In the afternoon it sells half of the cookies that are left. How many cookies are left at the end of the day? Work it out step by step, then write the final number on the last line.",
+   "normal": "A bakery bakes 240 cookies. It sells three quarters of them in the morning and half of the remaining cookies in the afternoon. How many cookies are left at the end of the day? Work it out step by step, then write the final number on the last line.",
+   "ornate": "A bakery produces a batch of 240 cookies, of which three quarters are disposed of through sales during the morning hours; during the afternoon, precisely half of the residual quantity is likewise sold. What number of cookies remains unsold upon the close of the day? Work it out step by step, then write the final number on the last line."
+  }
+ },
+ {
+  "task": "m02",
+  "family": "math",
+  "expected": "1300",
+  "check": {
+   "type": "number"
+  },
+  "variants": {
+   "plain": "Maria gets $18 for each hour she works. She works 7 hours a day, 5 days a week. Each week she pays $210 for rent and $95 for food. How much money does she have left after 4 weeks? Work it out step by step, then write the final number on the last line.",
+   "normal": "Maria earns $18 per hour. She works 7 hours a day, 5 days a week. Every week she spends $210 on rent and $95 on food. How much money does she have left after 4 weeks? Work it out step by step, then write the final number on the last line.",
+   "ornate": "Maria is remunerated at an hourly rate of $18 and discharges her duties for 7 hours per day across 5 days in each week. Her weekly outlays comprise $210 in rent and $95 in alimentary provisions. What residual sum remains at her disposal upon the conclusion of a 4-week interval? Work it out step by step, then write the final number on the last line."
+  }
+ },
+ {
+  "task": "m03",
+  "family": "math",
+  "expected": "190",
+  "check": {
+   "type": "number"
+  },
+  "variants": {
+   "plain": "A train leaves at 9:40 and gets there at 13:15. A second train on the same route takes 25 minutes less. How many minutes does the second train take? Work it out step by step, then write the final number on the last line.",
+   "normal": "A train departs at 9:40 and arrives at 13:15. A second train on the same route is 25 minutes faster. How many minutes does the second train's trip take? Work it out step by step, then write the final number on the last line.",
+   "ornate": "A train embarks upon its journey at 9:40 and attains its destination at 13:15. A second service traversing the identical route accomplishes the journey in 25 fewer minutes. What is the duration, expressed in minutes, of the second service's journey? Work it out step by step, then write the final number on the last line."
+  }
+ },
+ {
+  "task": "m04",
+  "family": "math",
+  "expected": "12",
+  "check": {
+   "type": "number"
+  },
+  "variants": {
+   "plain": "A tank can hold 1,200 liters. Right now it is 40% full. A pump puts in 60 liters each minute. How many minutes until the tank is full? Work it out step by step, then write the final number on the last line.",
+   "normal": "A tank holds 1,200 liters and is currently 40% full. A pump adds 60 liters per minute. How many minutes will it take to fill the tank? Work it out step by step, then write the final number on the last line.",
+   "ornate": "A reservoir possessing a total capacity of 1,200 liters is at present filled to 40% of said capacity. A pump introduces water at a rate of 60 liters per minute. How many minutes shall elapse before the reservoir attains complete fullness? Work it out step by step, then write the final number on the last line."
+  }
+ },
+ {
+  "task": "m05",
+  "family": "math",
+  "expected": "5",
+  "check": {
+   "type": "number"
+  },
+  "variants": {
+   "plain": "A school has 4 classes with 28 kids in each. It also has 3 classes with 31 kids in each. One bus can take 45 kids. How many buses does the school need to take all the kids on a trip? Work it out step by step, then write the final number on the last line.",
+   "normal": "A school has 4 classes of 28 students and 3 classes of 31 students. Each bus holds 45 students. How many buses are needed to take all the students on a trip? Work it out step by step, then write the final number on the last line.",
+   "ornate": "An educational institution comprises 4 classes of 28 pupils apiece together with 3 classes of 31 pupils apiece. Each available omnibus accommodates 45 pupils. How many omnibuses are requisite to convey the entire student body on an excursion? Work it out step by step, then write the final number on the last line."
+  }
+ },
+ {
+  "task": "m06",
+  "family": "math",
+  "expected": "50",
+  "check": {
+   "type": "number"
+  },
+  "variants": {
+   "plain": "A jacket costs $80. The shop takes 25% off the price. Then Ana uses a coupon that takes $10 off the new price. How much does Ana pay? Work it out step by step, then write the final number on the last line.",
+   "normal": "A jacket costs $80. It is on sale for 25% off, and Ana also has a coupon for $10 off the sale price. What is the final price Ana pays? Work it out step by step, then write the final number on the last line.",
+   "ornate": "A jacket bears a list price of $80. It is presently subject to a promotional reduction of 25%, and Ana additionally avails herself of a coupon conferring a further $10 deduction from the reduced price. What final sum does Ana remit? Work it out step by step, then write the final number on the last line."
+  }
+ },
+ {
+  "task": "m07",
+  "family": "math",
+  "expected": "36",
+  "check": {
+   "type": "number"
+  },
+  "variants": {
+   "plain": "Sam is 3 times as old as his son. In 12 years, Sam will be 2 times as old as his son. How old is Sam now? Work it out step by step, then write the final number on the last line.",
+   "normal": "Sam is three times as old as his son. In 12 years, Sam will be twice as old as his son. How old is Sam now? Work it out step by step, then write the final number on the last line.",
+   "ornate": "Sam's age is at present threefold that of his son. Upon the passage of 12 years, Sam's age shall be precisely double that of his son. What is Sam's present age? Work it out step by step, then write the final number on the last line."
+  }
+ },
+ {
+  "task": "m08",
+  "family": "math",
+  "expected": "300",
+  "check": {
+   "type": "number"
+  },
+  "variants": {
+   "plain": "A farmer has 15 rows of apple trees. Each row has 12 trees. Each tree gives 40 apples. He puts the apples in boxes. Each box holds 24 apples. How many full boxes does he get? Work it out step by step, then write the final number on the last line.",
+   "normal": "A farmer has 15 rows of apple trees with 12 trees in each row. Each tree produces 40 apples, and he packs the apples into boxes of 24. How many full boxes does he get? Work it out step by step, then write the final number on the last line.",
+   "ornate": "An agriculturalist cultivates 15 rows of apple trees, each row comprising 12 trees, and every tree yields 40 apples. The harvest is subsequently packed into containers accommodating 24 apples apiece. How many completely filled containers does he obtain? Work it out step by step, then write the final number on the last line."
+  }
+ },
+ {
+  "task": "m09",
+  "family": "math",
+  "expected": "49",
+  "check": {
+   "type": "number"
+  },
+  "variants": {
+   "plain": "Lena's phone plan costs $25 each month. The first 100 texts are free. Each text after that costs $0.10. In March, Lena sent 340 texts. How many dollars was her bill for March? Work it out step by step, then write the final number on the last line.",
+   "normal": "A phone plan costs $25 per month and includes 100 texts. Each text beyond the first 100 costs $0.10. Lena sent 340 texts in March. What was her bill for March in dollars? Work it out step by step, then write the final number on the last line.",
+   "ornate": "A mobile telephony subscription entails a monthly fee of $25 inclusive of an allowance of 100 text messages, with each message in excess of said allowance incurring a supplementary charge of $0.10. In the month of March, Lena dispatched 340 text messages. What was the total amount, in dollars, of her March invoice? Work it out step by step, then write the final number on the last line."
+  }
+ },
+ {
+  "task": "m10",
+  "family": "math",
+  "expected": "36.8",
+  "check": {
+   "type": "number"
+  },
+  "variants": {
+   "plain": "Three friends eat out. The bill is $96. They add a 15% tip to the bill. Then they split the total in three equal parts. How many dollars does each friend pay? Work it out step by step, then write the final number on the last line.",
+   "normal": "Three friends share a restaurant bill of $96. They add a 15% tip and split the total equally. How much does each friend pay in dollars? Work it out step by step, then write the final number on the last line.",
+   "ornate": "Three companions incur a restaurant bill amounting to $96. They supplement this sum with a gratuity of 15% and apportion the resulting total in equal shares among themselves. What amount, in dollars, is each companion obliged to contribute? Work it out step by step, then write the final number on the last line."
+  }
+ }
+]
