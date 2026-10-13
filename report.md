@@ -6,8 +6,8 @@ Each cell: percent correct over 50 tasks x trials. Difference columns: percentag
 
 | model | plain | normal | ornate | plain - normal | ornate - normal |
 |---|---|---|---|---|---|
-| qwen3:0.6b | 31 | 39 | 33 | -7 [-18, +4] | -6 [-16, +3] |
-| qwen3:1.7b | 58 | 64 | 50 | -6 [-16, +3] | -14 [-25, -4] |
+| qwen3:0.6b | 31 | 41 | 33 | -9 [-20, +1] | -8 [-18, +2] |
+| qwen3:1.7b | 58 | 65 | 50 | -7 [-17, +3] | -15 [-25, -5] |
 | qwen3:4b-instruct | 85 | 90 | 72 | -5 [-14, +3] | -18 [-31, -5] |
 | qwen3:8b | 62 | 69 | 62 | -7 [-16, +1] | -7 [-18, +3] |
 | qwen3:14b | 69 | 63 | 69 | +5 [-3, +14] | +5 [-4, +15] |
@@ -48,8 +48,8 @@ Each cell: percent correct over 50 tasks x trials. Difference columns: percentag
 
 | model | plain | normal | ornate |
 |---|---|---|---|
-| qwen3:0.6b | 33 | 37 | 7 |
-| qwen3:1.7b | 17 | 50 | 10 |
+| qwen3:0.6b | 33 | 47 | 7 |
+| qwen3:1.7b | 17 | 53 | 10 |
 | qwen3:4b-instruct | 97 | 93 | 43 |
 | qwen3:8b | 17 | 47 | 13 |
 | qwen3:14b | 30 | 13 | 37 |
@@ -135,9 +135,9 @@ Each cell: percent correct over 50 tasks x trials. Difference columns: percentag
 | e01 | extract | 78 | 85 | 22 |
 | m08 | math | 37 | 59 | 26 |
 | m04 | math | 26 | 41 | 11 |
+| m01 | math | 37 | 52 | 30 |
 | c04 | format | 78 | 74 | 52 |
 | f01 | filter | 33 | 52 | 33 |
-| k03 | classify | 74 | 85 | 67 |
 | f08 | filter | 11 | 0 | 15 |
 | e03 | extract | 81 | 70 | 89 |
 | e07 | extract | 93 | 78 | 96 |

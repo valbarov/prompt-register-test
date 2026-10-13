@@ -37,3 +37,11 @@ for t, reply, want in cases:
     if got != want:
         bad += 1; print(f"FAIL {t} {reply!r}: got {got}, want {want}")
 print(f"{len(cases)-bad}/{len(cases)} passed")
+# LaTeX endings (added after the qwen3 \boxed{} replies were found)
+more = [("m05", "205/45 = 4.56, round up:\n\n$$\n\boxed{5}\n$$", (True, False)),
+        ("m03", "$$\n\boxed{10}$$", (False, False)),
+        ("m01", "So 30 are left.\n$$\n= 30\n$$", (True, False))]
+for t, reply, want in more:
+    got = grade(P[t], reply)
+    if got != want: bad += 1; print(f"FAIL {t} {reply!r}: got {got}, want {want}")
+print(f"latex cases: {len(more)} run, total failures {bad}")

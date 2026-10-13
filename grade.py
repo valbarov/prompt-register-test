@@ -24,7 +24,12 @@ def to_num(tok):
 
 def g_number(item, reply):
     exp = float(item["expected"]); s = clean(reply).replace("**", "")
-    lines = [l.strip() for l in s.splitlines() if l.strip()]
+    boxed = re.findall(r"\\boxed\{([^{}]*)\}", s)       # LaTeX final answer: the last \boxed{} wins
+    if boxed:
+        nums = re.findall(NUM, boxed[-1])
+        ok = bool(nums) and abs((to_num(nums[-1]) or 1e18) - exp) < 1e-6
+        return ok, False
+    lines = [l.strip() for l in s.splitlines() if l.strip() and l.strip() not in ("$$", "$", r"\]", r"\[")]
     if not lines: return False, False
     def line_ok(l):
         nums = re.findall(NUM, l)

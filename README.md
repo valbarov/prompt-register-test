@@ -2,7 +2,7 @@
 
 Does the language of a prompt change how well local LLMs answer? This repo holds 50 tasks written in three registers (plain, normal, ornate), the runner, the grader, every raw reply from 8 local models, a math follow-up that isolates the format line, and a perplexity check.
 
-Short answer: the register barely matters. From 8B up, plain, normal, and ornate land within 4 points of each other. At 4B and below, normal does slightly best (about 8 points, intervals touch zero). The big swings come from the format line: "number only" stops a model with thinking off from writing out its working, and then it guesses. Same problems, same models: 37% with "number only", 82% with "work it out step by step".
+Short answer: the register barely matters. From 8B up, plain, normal, and ornate land within 4 points of each other. At 4B and below, normal does slightly best (about 8 points, intervals touch zero). The big swings come from the format line: "number only" stops a model with thinking off from writing out its working, and then it guesses. Same problems, same models: 39% with "number only", 91% with "work it out step by step".
 
 Article: *link coming*
 

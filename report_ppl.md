@@ -22,8 +22,8 @@ Perplexity = exp(mean NLL per token). Lower = more familiar to the model.
 
 | model | all 50 tasks | without math |
 |---|---|---|
-| qwen3:0.6b | -0.13 [-0.32, +0.05] | +0.08 [-0.10, +0.25] |
-| qwen3:1.7b | -0.20 [-0.43, +0.05] | -0.15 [-0.39, +0.13] |
+| qwen3:0.6b | -0.17 [-0.36, +0.03] | +0.08 [-0.10, +0.25] |
+| qwen3:1.7b | -0.21 [-0.43, +0.01] | -0.15 [-0.39, +0.13] |
 | qwen3:4b-instruct | -0.41 [-0.61, -0.15] | -0.15 [-0.38, +0.13] |
 
 ## Most familiar register, counted over tasks
